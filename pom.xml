@@ -5,10 +5,16 @@
   <groupId>cn.sure.sh</groupId>
   <artifactId>ForPressure2</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>ForPressure2</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>Hello</module>
+    <module>Hello2</module>
+    <module>Hello3</module>
+      <module>sql</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
