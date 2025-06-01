@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ad?useSSL=false&serverTimezone=UTC
+    username: ad
+    password: min
+    driver-class-name: com.mysql.cj.jdbc.Driver
+# application.yml
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true

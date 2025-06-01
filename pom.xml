@@ -14,6 +14,7 @@
     <module>Hello2</module>
     <module>Hello3</module>
       <module>sql</module>
+    <module>Pressure</module>
   </modules>
 
   <properties>
